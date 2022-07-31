@@ -1,119 +1,249 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cabinet of Cosmetology Dr. Shcherbin</title>
-</head>
-<body>
-    <header>
-        <a href="/index.html"><img src="images/logo.svg" alt="логотип">Dr. Shcherbin</a>
-        <ul>
-            <li>Послуги</li>
-            <li>Акції</li>
-            <li>Контакти</li>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <img src="images/logo.svg" alt="логотип" class="header-logo-img" />
+        <a href="./index.html" class="header-logo link">Dr. Shcherbin</a>
+        <ul class="header-list list">
+          <li class="header-list-item">
+            <a href="" class="header-item-link link">Послуги</a>
+          </li>
+          <li class="header-list-item">
+            <a href="" class="header-item-link link">Акції</a>
+          </li>
+          <li class="header-list-item">
+            <a href="" class="header-item-link link">Контакти</a>
+          </li>
         </ul>
-        <address>
-            <a href=""><img src="images/placeholder.svg" alt="місцезнаходження">м.Київ, вул. Івана Мазепи, 1</a>
+        <address class="header-address">
+          <img
+            src="images/placeholder.svg"
+            alt="місцезнаходження"
+            class="address-icon"
+          />
+          <a href="#" class="address-link link">м.Київ, вул. Івана Мазепи, 1</a>
         </address>
+      </div>
     </header>
     <main>
-        <!-- Пропозиція -->
-        <section>
-            <h1>Кабінет Косметології</h1>
-            <p>Комплексний підхід до створення та збереження <br>
-            Вашої молодості, краси та здоров'я!</p>
-            <button type="button">Записатися на прийом</button>
-        </section>
-        <!-- Про клініку -->
-        <section>
-            <h2>Про клініку</h2>
-            <p>Dr. Shcherbin — провідний новатор у галузі медичних та естетичних передових лазерних технологій. На сьогоднішній день CosmoDerm є
-            єдиною клінікою, яка має у своєму арсеналі весь спектр інноваційних лазерних платформ останнього покоління, що дозволяє
-            команді професійних та висококваліфікованих лікарів проводити діагностику та лікування всіх видів дерматокосметологічних
-            проблем та підтримання естетичного здоров'я кожного пацієнта.
-            
-            Довіряючи турботу про своє здоров'я нам Ви можете бути впевнені в результаті!</p>
-        </section>
-        <!-- Переваги -->
-        <section>
-            <h2>Наші переваги</h2>
-            <ul>
-                <li>
-                    <h3>Сучасне обладнання</h3>
-                    <p>Наші індивідуальні програми лікування поєднують у собі найсучасніші, орієнтовані на результат технології для вирішення
-                    проблем зі шкірою обличчя, тіла та придатків шкіри.</p>
-                    <img src="images/pic-1.jpg" alt="іконка обладнання" width="120">
-                </li>
-                <li>
-                    <h3>Кваліфіковані лікарі</h3>
-                    <p>Наші фахівці мають вищу професійну освіту та високу кваліфікацію.</p>
-                    <img src="images/pic-3.jpg" alt="іконка лікаря" width="120">
-                </li>
-                <li>
-                    <h3>Перша консультація
-                    безкоштовно</h3>
-                    <p>У нашій клініці ви можете отримати першу консультацію та діагностику шкіри безкоштовно, а також обговорити
-                    рекомендації та можливі варіанти лікування.</p>
-                    <img src="images/pic-2.jpg" alt="іконка стетоскопу" width="120">
-                </li>
-                <li>
-                    <h3>Гнучка система оплати</h3>
-                    <p>Ми надаємо можливість оплати послуг онлайн, та знижки для пільгових категорій громадян</p>
-                    <img src="images/pic-4.jpg" alt="іконка гаманця" width="120">
-                </li>
-            </ul>
-        </section>
-        <!-- Фото -->
-        <section>
-            <img src="images/women.jpg" alt="чернокожая девушка" width="708">
-            <img src="images/cosmetics-1.jpg" alt="флаконы с косметикой" width="931">
-            <img src="images/cosmetics-2.jpg" alt="нанесение косметики на руку" width="892">
-        </section>
-        <!-- Наші послуги -->
-        <section>
-            <h2>Наші послуги</h2>
-            <ul>
-                <li>
-                    <h3>Терапевтична косметологія</h3>
-                    <a href=""><img src="images/plus.svg" alt="іконка плюс"></a>
-                </li>
-                <li>
-                    <h3>Ін'єкційна косметологія</h3>
-                    <a href=""><img src="images/plus.svg" alt="іконка плюс"></a>
-                </li>
-                <li>
-                    <h3>Лазерна косметологія</h3>
-                    <a href=""><img src="images/plus.svg" alt="іконка плюс"></a>
-                </li>
-                <li>
-                    <h3>Лікування акне та постакне</h3>
-                    <a href=""><img src="images/plus.svg" alt="іконка плюс"></a>
-                </li>
-                <li>
-                    <h3>Апаратна косметологія</h3>
-                    <a href=""><img src="images/plus.svg" alt="іконка плюс"></a>
-                </li>
-            </ul> 
-        </section>
-        <!-- Акція в день народження -->
-        <section>
-            <h3>15% знижка на всі послуги у ваш день народження</h3>
-            <p>День народження — чудова нагода зробити собі подарунок і записатися на процедуру догляду. Знижка діє 3 дні до та 3 дні
-            після вашого дня народження.</p>
-            <img src="images/women-2.jpg" alt="дівчині наносять маску на обличчя">
-        </section>
-        <!-- Запишіться на прийом -->
-        <section>
-            <h2>Запишіться на прийом</h2>
-            <p>Залишіть свій контактний номер, і ми передзвонимо вам протягом 5 хвилин</p>
-            <!-- ? Поле для ввода данных узнать какой тег применить -->
-            <p>Ваше ім'я</p>
-            <p>Ваш номер телефону</p>
-            <button type="button">Відправити</button>
-        </section>
+      <!-- Пропозиція -->
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Кабінет Косметології</h1>
+          <p class="hero-text">
+            Комплексний підхід до створення та збереження Вашої молодості, краси
+            та здоров'я!
+          </p>
+          <button type="button" class="hero-btn">Записатися на прийом</button>
+        </div>
+      </section>
+      <!-- Про клініку -->
+      <section class="about">
+        <div class="container">
+          <h2 class="about-title">Про клініку</h2>
+          <p class="about-text">
+            <span class="about-doctor">Dr. Shcherbin</span> — провідний новатор
+            у галузі медичних та естетичних передових лазерних технологій. На
+            сьогоднішній день CosmoDerm є єдиною клінікою, яка має у своєму
+            арсеналі весь спектр інноваційних лазерних платформ останнього
+            покоління, що дозволяє команді професійних та висококваліфікованих
+            лікарів проводити діагностику та лікування всіх видів
+            дерматокосметологічних проблем та підтримання естетичного здоров'я
+            кожного пацієнта. Довіряючи турботу про своє здоров'я нам Ви можете
+            бути впевнені в результаті!
+          </p>
+        </div>
+      </section>
+      <!-- Переваги -->
+      <section class="benefits">
+        <div class="container">
+          <h2 class="benefits-title">Наші переваги</h2>
+          <ul class="benefits-list list">
+            <li class="benefits-list-item">
+              <div class="benefits-item-text-bloc">
+                <h3 class="benefits-item-title">Сучасне обладнання</h3>
+                <p class="benefits-item-text">
+                  Наші індивідуальні програми лікування поєднують у собі
+                  найсучасніші, орієнтовані на результат технології для
+                  вирішення проблем зі шкірою обличчя, тіла та придатків шкіри.
+                </p>
+              </div>
+              <img
+                src="images/pic-1.jpg"
+                alt="іконка обладнання"
+                width="120"
+                class="benefits-item-icon"
+              />
+            </li>
+            <li class="benefits-list-item">
+              <div class="benefits-item-text-bloc">
+                <h3 class="benefits-item-title">Кваліфіковані лікарі</h3>
+                <p class="benefits-item-text">
+                  Наші фахівці мають вищу професійну освіту та високу
+                  кваліфікацію.
+                </p>
+              </div>
+              <img
+                src="images/pic-3.jpg"
+                alt="іконка лікаря"
+                width="120"
+                class="benefits-item-icon"
+              />
+            </li>
+            <li class="benefits-list-item">
+              <div class="benefits-item-text-bloc">
+                <h3 class="benefits-item-title">
+                  Перша консультація безкоштовно
+                </h3>
+                <p class="benefits-item-text">
+                  У нашій клініці ви можете отримати першу консультацію та
+                  діагностику шкіри безкоштовно, а також обговорити рекомендації
+                  та можливі варіанти лікування.
+                </p>
+              </div>
+
+              <img
+                src="images/pic-2.jpg"
+                alt="іконка стетоскопу"
+                width="120"
+                class="benefits-item-icon"
+              />
+            </li>
+            <li class="benefits-list-item">
+              <div class="benefits-item-text-bloc">
+                <h3 class="benefits-item-title">Гнучка система оплати</h3>
+                <p class="benefits-item-text">
+                  Ми надаємо можливість оплати послуг онлайн, та знижки для
+                  пільгових категорій громадян
+                </p>
+              </div>
+              <img
+                src="images/pic-4.jpg"
+                alt="іконка гаманця"
+                width="120"
+                class="benefits-item-icon"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Фото -->
+      <section class="pics">
+        <img
+          src="images/women.jpg"
+          alt="чернокожая девушка"
+          width="708"
+          height="900"
+        />
+        <div class="pics-left">
+          <img
+            src="images/cosmetics-1.jpg"
+            alt="флаконы с косметикой"
+            width="892"
+            height="577"
+          />
+          <img
+            src="images/cosmetics-2.jpg"
+            alt="нанесение косметики на руку"
+            width="892"
+            height="323"
+          />
+        </div>
+      </section>
+      <!-- Наші послуги -->
+      <section class="services">
+        <h2 class="services-title">Наші послуги</h2>
+        <div class="container">
+          <ul class="services-list list">
+            <li class="services-list-item">
+              <h3 class="services-item-title">Терапевтична косметологія</h3>
+              <a href="" class="services-item-plus"
+                ><img src="images/plus.svg" alt="іконка плюс"
+              /></a>
+            </li>
+            <li class="services-list-item">
+              <h3 class="services-item-title">Ін'єкційна косметологія</h3>
+              <a href="" class="services-item-plus"
+                ><img src="images/plus.svg" alt="іконка плюс"
+              /></a>
+            </li>
+            <li class="services-list-item">
+              <h3 class="services-item-title">Лазерна косметологія</h3>
+              <a href="" class="services-item-plus"
+                ><img src="images/plus.svg" alt="іконка плюс"
+              /></a>
+            </li>
+            <li class="services-list-item">
+              <h3 class="services-item-title">Лікування акне та постакне</h3>
+              <a href="" class="services-item-plus"
+                ><img src="images/plus.svg" alt="іконка плюс"
+              /></a>
+            </li>
+            <li class="services-list-item">
+              <h3 class="services-item-title">Апаратна косметологія</h3>
+              <a href="" class="services-item-plus"
+                ><img src="images/plus.svg" alt="іконка плюс"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Акція в день народження -->
+      <section class="discount">
+        <div class="container discount-container">
+          <div class="discount-text-bloc">
+            <h3 class="discount-title">
+              15% знижка на всі послуги у ваш день народження
+            </h3>
+            <p class="discount-text">
+              День народження — чудова нагода зробити собі подарунок і
+              записатися на процедуру догляду. <br />
+              Знижка діє 3 дні до та 3 дні після вашого дня народження.
+            </p>
+          </div>
+          <img
+            src="images/women-2.jpg"
+            alt="дівчині наносять маску на обличчя"
+            class="discount-pics"
+          />
+        </div>
+      </section>
+      <!-- Запишіться на прийом -->
+      <section class="request">
+        <div class="container">
+          <h2 class="request-title">Запишіться на прийом</h2>
+          <p class="request-text">
+            Залишіть свій контактний номер, і ми передзвонимо вам протягом 5
+            хвилин
+          </p>
+          <!-- ? Поле для ввода данных узнать какой тег применить -->
+          <p class="request-name">Ваше ім'я</p>
+          <p class="request-tel">Ваш телефону</p>
+          <button type="button" class="request-btn">Відправити</button>
+        </div>
+      </section>
     </main>
     <footer></footer>
-</body>
+  </body>
 </html>

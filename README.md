@@ -1,1 +1,1 @@
-# Cosmetology_Clinic
+# Cosmetology-Clinic
